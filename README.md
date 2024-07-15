@@ -2,6 +2,7 @@
 Project revolves around addressing the vanishing gradient problem in MLP networks when training a deep model (with many hidden layers). There will be 6 different methods that impact the model training strategy, ... to help minimize vanishing gradients.
 # Project Introduction
 **Dataset:** FashionMNIST
+
 **Methods:** In this project you will be introduced to 6 methods to reduce gradients vanishing:
 * **Weight Increasing:** The project requires you to initialize the weight with increased variance (or standard deviation) to minimize the vanishing problem in this project.
   - (a) mean = 0 and standard deviation = 1.0
