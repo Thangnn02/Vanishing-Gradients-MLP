@@ -14,5 +14,5 @@ Project revolves around addressing the vanishing gradient problem in MLP network
   - (b) Custom normalize layer: $\frac{x-mean}{std}$
 * **Skip Connection:** The project requires you to use the skip connection technique to the current model to minimize the vanishing problem.
   - **Step 1:** Make a skip connection path from the output of hidden layer 1 to the output of hidden layer 3.
-  - **Step 2:** Thực hiện 1 skip connection path tử output của hidden layer 4 đến output của hidden layer 7.
+  - **Step 2:** Make a skip connection path from the output of hidden layer 4 to the output of hidden layer 7.
 * **Train Some Layers:** The project requires you to use the strategy of dividing the current model into 4 sub model and train 7 times with each time piling the sub models on top of each other and alternating freeze and unzfreeze weights of these sub models.
